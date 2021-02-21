@@ -60,6 +60,11 @@
 #define DefaultPowerEnum 2
 #endif
 
+#ifdef TARGET_TX_ESP8266_SX1280_V1
+#define MaxPower 0
+#define DefaultPowerEnum 0
+#endif
+
 typedef enum
 {
     PWR_10mW = 0,

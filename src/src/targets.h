@@ -265,7 +265,7 @@ https://github.com/jaxxzer
 
 #endif
 
-#ifdef TARGET_RX_ESP8266_SX1280_V1
+#if defined TARGET_RX_ESP8266_SX1280_V1 || defined TARGET_TX_ESP8266_SX1280_V1
 #define GPIO_PIN_NSS 15
 #define GPIO_PIN_BUSY 5
 #define GPIO_PIN_DIO0 -1 // does not exist on sx1280
